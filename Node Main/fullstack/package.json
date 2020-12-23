@@ -1,0 +1,22 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "this is node fullstack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api.js",
+    "dev": "nodemon api.js"
+  },
+  "keywords": [
+    "node",
+    "ejs",
+    "express"
+  ],
+  "author": "Nareshit",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.7"
+  }
+}

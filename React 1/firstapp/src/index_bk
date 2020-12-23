@@ -1,0 +1,17 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Header from './component/Header';
+import Footer from './component/Footer';
+import NewsList from './component/NewsList';
+
+const App = () => {
+    return(
+        <React.Fragment>
+            <Header/>
+            <NewsList/>
+            <Footer/>
+        </React.Fragment>
+    )
+}
+
+ReactDOM.render(<App/>,document.getElementById('root'))

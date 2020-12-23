@@ -1,0 +1,17 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reactjs"
+  ],
+  "author": "Ramnewas",
+  "license": "ISC",
+  "dependencies": {
+    "react-slick": "^0.27.11"
+  }
+}

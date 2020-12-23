@@ -1,0 +1,46 @@
+string = "aa" 'a' 'John' '11'
+number= 111,11.11
+boolean= true/false
+
+Es (Ecma Script)
+
+Es5
+> var  => we can declare and reassign
+Es6 
+> let  => we cannot redeclare but can reassign
+> const => we cannot redecalare nore reassign
+
+
+var a =10
+var a (="declare a variable")
+a=10  (="assiging a variable")
+
+/////////////////////////////////
+Es5
+
+function add(a,b){
+    return a+b
+}
+
+add(1,2)
+
+/////Es6/////
+const add = (a,b) => {
+    return a+b
+}
+
+
+add(1,2)
+
+class add {
+
+}
+
+
+(function(){}())
+
+JSX
+
+apply
+call
+bind

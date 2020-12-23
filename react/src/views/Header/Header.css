@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Proxima+Nova&display=swap");
+.header {
+  position: absolute;
+  /* width: 1440px; */
+  height: 98px;
+  left: 0px;
+  top: 0px;
+  background: #fbfbfb;
+  box-shadow: 0px 1px 4px #e5e5e5;
+  width: 99vw !important;
+}
+
+.brand {
+  /* position: absolute; */
+  margin-left: 8%;
+  width: 164px;
+  height: 44px;
+  top: 20px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #16181a;
+}
+
+.links {
+  margin-right: 10%;
+}

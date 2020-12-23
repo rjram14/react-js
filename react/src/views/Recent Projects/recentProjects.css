@@ -1,0 +1,20 @@
+.main {
+  background: #e5e5e5;
+}
+
+.heading {
+  position: absolute;
+  width: 171px;
+  height: 28px;
+  left: 742px;
+  top: 146px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.015em;
+
+  color: rgba(255, 255, 255, 0.5);
+}

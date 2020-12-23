@@ -1,0 +1,40 @@
+1) “Props” is a special keyword in React, which stands for properties
+ and is being used for passing data from one component to another.
+
+2) But the important part here is that data with props are being passed in a uni-directional flow.
+ (one way from parent to child)
+
+3) Furthermore, props data is read-only,
+ which means that data coming from the parent should not be changed by child components.
+
+
+ 4)class ParentComponent extends Component {  
+  render() {
+    return (
+      <h1>
+        I'm the parent component.
+        <ChildComponent />
+      </h1>
+    );
+  }
+}
+
+5)const ChildComponent = () => {  
+  return <p>I'm the 1st child!</p>; 
+};
+
+6) class ParentComponent extends Component {  
+  render() {
+    return (
+      <h1>
+        I'm the parent component.
+        <ChildComponent />
+        <ChildComponent />
+        <ChildComponent />
+      </h1>
+    );
+  }
+}
+
+
+7)

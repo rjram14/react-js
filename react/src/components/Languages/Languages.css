@@ -1,0 +1,178 @@
+.heading {
+  margin-top: 55px;
+  font: 'Proxima Nova';
+  font-weight: bold;
+  color: white;
+  font-size: 20;
+  padding-left: 20px;
+}
+
+.sub-heading {
+  margin-top: 15px;
+  font: 'Rubik';
+  color: white;
+  font-size: 16;
+  padding-left: 20px;
+}
+
+.sub-heading-top {
+  margin-top: 30px;
+  font: 'Rubik';
+  color: white;
+  font-size: 16;
+  padding-left: 20px;
+}
+
+.header {
+  position: absolute;
+  width: 1440px;
+  height: 98px;
+  left: 0px;
+  top: 0px;
+  background: #fbfbfb;
+  box-shadow: 0px 1px 4px #e5e5e5;
+}
+
+.footer {
+  height: 412px;
+  background-color: #0278ae;
+}
+
+.manb {
+  margin-top: 85px;
+  font: 'Proxima Nova';
+  font-size: 24px;
+  color: white;
+}
+
+.mail {
+  margin-top: 5px;
+  font: 'Rubik';
+  font-size: 16px;
+  color: white;
+}
+
+.social {
+  margin-top: 8px;
+  font: 'Rubik';
+  font-size: 16px;
+  color: white;
+}
+
+.copyright {
+  margin-top: 7px;
+  font: 'Rubik';
+  font-size: 16px;
+  color: white;
+}
+
+.down-manbal {
+  padding-left: 120px;
+}
+
+.services {
+  background-color: #0278ae;
+  height: 527px;
+}
+
+.services-head {
+  margin-top: 80px;
+  text-align: center;
+  color: white;
+  font: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 117px;
+  letter-spacing: 0.015em;
+}
+
+.tagline {
+  text-align: center;
+  font: 'Rubik';
+  font-size: 24px;
+  color: white;
+}
+
+#service-card {
+  height: 352px;
+  width: 352px;
+  border-radius: 10px;
+  background-color: #fbfbfb;
+  box-shadow: -2px -2px 20px rgba(141, 147, 171, 0.2),
+    2px 2px 20px rgba(141, 147, 171, 0.2);
+  position: absolute;
+}
+
+.service-card1 {
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 100px;
+}
+
+.service-card2 {
+  position: absolute;
+  margin-top: 110px;
+}
+
+.service-card3 {
+  position: absolute;
+  margin-top: 110px;
+  margin-right: 40px;
+}
+
+.lang-head {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #616678;
+}
+
+.languages {
+  background-color: #e5e5e5;
+}
+
+.get-in-touch {
+  height: 336px;
+  background-color: #393b44;
+}
+
+.get-in-head {
+  font: 'Rubik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 57px;
+  color: #ffffff;
+  padding-left: 300px;
+  padding-top: 50px;
+}
+
+.get-in-button {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  position: absolute;
+  width: 265px;
+  height: 64px;
+  left: 588px;
+  top: 170px;
+  font: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  background: none;
+  text-align: center;
+
+  /* identical to box height */
+
+  letter-spacing: 0.015em;
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    height: auto;
+  }
+}

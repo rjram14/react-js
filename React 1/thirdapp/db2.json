@@ -1,0 +1,30 @@
+{
+    "mydata":[
+        {
+            "id":1,
+            "name":"John"
+        },
+        {
+            "id":2,
+            "name":"Alvin"
+        },
+        {
+            "id":3,
+            "name":"Zeo"
+        }
+    ],
+    "myalbums":[
+        {
+            "id":1,
+            "name":"album1"
+        },
+        {
+            "id":2,
+            "name":"album2"
+        },
+        {
+            "id":3,
+            "name":"album3"
+        }
+    ]
+}

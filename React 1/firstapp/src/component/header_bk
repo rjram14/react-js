@@ -1,0 +1,74 @@
+import React,{Component} from 'react';
+
+class Header extends Component{
+    constructor(){
+       super() 
+    
+       this.state={
+           title:'React APP'
+       }
+       
+    }
+    render(){
+        const mystyle={
+            header:{
+                background:'teal'
+            },
+            logo:{
+                color:'#fff',
+                textAlign:'center',
+                fontSize:'30px'
+            }
+        }
+        return(
+            <React.Fragment>
+                <header style={mystyle.header}>
+                    <p style={mystyle.logo}>{this.state.title}</p>
+                    <center>
+                        <input/>
+                    </center>
+                </header>
+                <hr/>
+            </React.Fragment>
+        )
+    }
+}
+
+
+export default Header;
+
+
+/* functional
+import React from 'react';
+
+const Header = () => {
+    return(
+        <React.Fragment>
+            <center>
+                <h2>React App</h2>
+            </center>
+            <hr/>
+        </React.Fragment>
+    )
+}
+
+export default Header;
+
+
+
+/////// Es5//////////
+var React = require('react')
+
+function Header(){
+    return(
+        <div>
+            <center>
+                <h2>React App</h2>
+            </center>
+            <hr/>
+        </div>
+    )
+}
+
+module.exports = Header;
+*/

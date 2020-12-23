@@ -1,0 +1,19 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "description": "this is learn react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Node"
+  ],
+  "author": "NareshIT",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.12.0",
+    "zone.js": "^0.10.2"
+  }
+}

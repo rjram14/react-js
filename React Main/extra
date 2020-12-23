@@ -1,0 +1,216 @@
+npm
+==> Node Package Mangers
+> packages
+> node_modules
+> npm_modules
+
+> Local=> local to the folder
+> Global => local to the system
+    --Creating,building,running,testing
+
+> package.json
+
+//////////////////////////////
+Step For Creating Package.json
+//////////////////////////////
+**NodeJs must be installed
+> Navigate to folder using cmd/terminal
+> npm init 
+> Answer all question
+> type 'yes'
+
+//////////////////////////////
+Step to install Local packages
+//////////////////////////////
+> Navigate to folder using cmd/terminal
+> npm install <packagename>/npm i <packagename>
+
+We never transport node_modules folder
+* Without node_modules application will not run 
+* We you get application from any one
+* Go inside the folder using cmd and type "npm install"
+* It will install  all dependinces which are in packag.json
+
+//////////////////////////////
+Step to install Gloabl packages
+//////////////////////////////
+>>Windows
+> Open Cmd as admin
+** No needto navigate in any folder
+** YYou can run from any folder
+> npm install -g <packagename>/npm i -g <packagename>
+> npm i -g @aakashdeveloper/create-node-app
+
+>>Mac/Linux
+>Open Terminal
+>sudo npm install -g <packagename>/npm i -g <packagename>
+>> sudo npm i -g @aakashdeveloper/create-node-app
+
+Mac >>> /usr/local/lib/node_modules
+Window>> C:\Users\[Username]\AppData\Roaming\npm
+
+//////////////////////////////
+Step to SetUp ReactAPP
+//////////////////////////////
+>>Windows
+> Open Cmd as admin
+> npm install -g create-react-app (OneTime)
+> Navigate to folder using cmd/terminal
+> create-react-app firstapp
+> cd firstapp
+> npm start
+> http://localhost:3000/
+
+>>Mac/Linux
+> Open Terminal
+> sudo npm install -g create-react-app (OneTime)
+> Navigate to folder using cmd/terminal
+> create-react-app firstapp
+> cd firstapp
+> npm start
+> http://localhost:3000/
+
+react
+react+redux
+react+graphql
+react forms
+backend connection
+testing
+deployment
+docker
+nginx
+
+/////////
+const
+function
+map
+filter
+array
+
+////
+creating first app with react
+
+** Only main component will render
+rest all component will be exported
+
+//////////////////////////////
+Type Of Component in React
+//////////////////////////////
+Functional            |  ClassBase  
+light in weight       |  Its heavy as compare to Functional
+Dumb Component        |  logical component
+Stateless             |  statefull
+
+
+State=> It act like a local variable
+
+Component A     ===>        Component B 
+State1(title)    props       State2
+
+
+
+function details(a){
+    return a.name
+}
+
+
+var name="john"
+details(name)
+
+
+var john={
+    name:"John",
+    city:"London"
+}
+
+
+details.bind(john)
+** if you want to pass parameter as object
+in function we have to use bind keyword
+
+map
+filter
+
+
+var a = [0,1,2,3,4]
+a.map((data)=>{return data*2})
+a.filter((data)=>{return data*2})
+[0, 2, 4, 6, 8]
+
+
+var age = [18,34,42,28,26]
+age.filter((data)=>{return data>18})
+age.map((data)=>{return data>18})
+
+var age = [18,34,42,28,26]
+age.filter((data)=>{return data>18})
+(4) [34, 42, 28, 26]
+age.map((data)=>{return data>18})
+(5) [false, true, true, true, true]
+var a = [0,1,2,3,4]
+undefined
+a.filter((data)=>{return data*2})
+(4) [1, 2, 3, 4]
+a.filter((data)=>{data*2})
+
+
+
+var a = 10
+var b = "my age is "+a
+my age is 10
+
+var b = `my age is ${a}`
+
+npm i react-router-dom
+
+
+////////
+Set To Create Dummy API
+///////
+npm i -g json-server
+
+json-server --watch db.json --port 8900
+
+
+npm i redux react-redux react-slick react-promise react-router-dom
+
+
+>>>>>>>>Production<<<<<<<<<
+# npm run build
+
+> docker
+> nginx
+> Mern
+(node server)
+> thorugh node server we will serve index.html
+
+
+>>docker build . -t nareshreact
+>>docker image ls 
+>>docker run -p 8777:4200 nareshreact
+
+
+>>>>Nginx<<<<<<
+load balancer
+reverse proxy
+SSL 
+
+> Download and install nginx 
+> add build folder in root destination 
+> add server in nginx.conf
+> nginx
+
+
+ server {
+        listen       8081;
+        server_name  localhost;
+
+        location / {
+	     root   /var/www/react-app;
+         index  index.html index.htm;
+        }
+    }
+
+========
+npm i enzyme-adapter-react-16 react-test-renderer enzyme
+npm i enzyme

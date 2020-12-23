@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+.tabs {
+  /* position: absolute; */
+  /* width: 56px; */
+  height: 24px;
+  top: 37px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  color: #393b44;
+  margin-right: 50px;
+  margin-top: 17px;
+}

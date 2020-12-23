@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SnapShot Testing testing header 1`] = `
+<header>
+  <div>
+    <h1>
+      hii
+    </h1>
+  </div>
+</header>
+`;
